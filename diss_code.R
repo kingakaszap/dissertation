@@ -7,6 +7,7 @@ library (writexl)
 library (lme4)
 library (MuMIn)
 library (effects)
+library (praise)
 library (fortunes)
 
 #----
@@ -352,3 +353,5 @@ model_effects <- allEffects(model2_interactions_foal_pregnant)
 
 summary(model_effects)
 #----
+praise()
+fortunes()
